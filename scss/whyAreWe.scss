@@ -1,0 +1,66 @@
+.section-whyAreWe {
+    background-color: $white;
+    padding: 97px 0 97px 0;
+
+}
+
+.section-whyAreWe__heading {
+    @include sectionHeading ($black);
+    margin: 0 0 48px 0;
+    text-align: center;
+}
+
+.section-whyAreWe_cards-container {
+    display: flex;
+}
+
+.cardWhyAreWe {}
+
+.section-whyAreWe_card {
+    flex: 1 1 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 24px;
+}
+
+.section-whyAreWe_card:not(:last-child) {
+    margin-right: 32px;
+}
+
+.cardWhyAreWe__icon {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 24px;
+
+}
+
+.cardWhyAreWe__icon_first {
+    background-image: url("/img/whyAreWe/successFocus.svg");
+}
+
+.cardWhyAreWe__heading {
+    display: block;
+    @include interBold(16px);
+    color: $black;
+    margin-bottom: 24px;
+}
+
+.cardWhyAreWe__description {
+    @include interReg(16px);
+    color: $black;
+    text-align: center;
+    margin: 0;
+}
+
+.cardWhyAreWe__icon_second {
+    background-image: url("/img/whyAreWe/favorite.svg");
+}
+
+.cardWhyAreWe__icon_third {
+    background-image: url("/img/whyAreWe/clock.svg");
+
+}

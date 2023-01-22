@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+// Шрифты миксины
+
+@mixin interReg ($fontSize) {
+    font-family: 'Inter', sans-serif;
+    font-size: $fontSize;
+    font-style: normal;
+    font-weight: 400;
+}
+@mixin interBold ($fontSize) {
+    font-family: 'Inter', sans-serif;
+    font-size: $fontSize;
+    font-style: normal;
+    font-weight: 700;
+}
+@mixin sectionHeading ($color) {
+    @include interBold(40px);
+    line-height:48px;
+    text-align: center;
+    color:$color;
+}
+
+// Переменные с цветами
+
+
+$white: #FFFFFF;
+$black:#000000;
+$lighterThanBlack:#111111;
+
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
