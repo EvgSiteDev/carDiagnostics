@@ -41,6 +41,7 @@
   text-decoration: none;
   color: #FFFFFF;
   line-height: 24px;
+  display: block;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -57,11 +58,11 @@
 .header__heading {
   margin: 0;
   font-family: "Inter", sans-serif;
-  font-size: 64px;
+  font-size: 80px;
   font-style: normal;
   font-weight: 700;
   color: #FFFFFF;
-  line-height: 64px;
+  line-height: 80px;
   text-align: center;
   margin-bottom: 24px;
 }
@@ -75,6 +76,80 @@
   line-height: 40px;
   max-width: 763px;
   text-align: center;
+}
+
+.section-whyAreWe {
+  background-color: #FFFFFF;
+  padding: 97px 0 97px 0;
+}
+
+.section-whyAreWe__heading {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  margin: 0 0 48px 0;
+  text-align: center;
+}
+
+.section-whyAreWe_cards-container {
+  display: flex;
+}
+
+.section-whyAreWe_card {
+  flex: 1 1 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px;
+}
+
+.section-whyAreWe_card:not(:last-child) {
+  margin-right: 32px;
+}
+
+.cardWhyAreWe__icon {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 24px;
+}
+
+.cardWhyAreWe__icon_first {
+  background-image: url("/img/whyAreWe/successFocus.svg");
+}
+
+.cardWhyAreWe__heading {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.cardWhyAreWe__description {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+}
+
+.cardWhyAreWe__icon_second {
+  background-image: url("/img/whyAreWe/favorite.svg");
+}
+
+.cardWhyAreWe__icon_third {
+  background-image: url("/img/whyAreWe/clock.svg");
 }
 
 /*# sourceMappingURL=style.css.map */
